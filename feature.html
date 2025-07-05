@@ -1,0 +1,55 @@
+<!-- features.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Features – FitNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="gym3.png" alt="FitNest Logo">
+      <h1>FitNest</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="feature.html">Features</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="started.html">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="features">
+    <h2>Smart Features</h2>
+    <div class="features-container">
+      <div class="feature-box">
+        <img src="gym6.png" alt="Heart Rate Monitoring">
+        <h3>Heart Rate Monitoring</h3>
+        <p>Track your heart rate 24/7 for better workout insights.</p>
+      </div>
+      <div class="feature-box">
+        <img src="gym5.png" alt="Sleep Analysis">
+        <h3>Sleep Analysis</h3>
+        <p>Understand your sleep patterns and improve rest quality.</p>
+      </div>
+      <div class="feature-box">
+        <img src="gym2.png" alt="Workout Coaching">
+        <h3>Workout Coaching</h3>
+        <p>Get AI-guided fitness routines based on your goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> FitNest Inc.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
