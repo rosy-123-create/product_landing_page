@@ -1,0 +1,57 @@
+<!-- pricing.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing – FitNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="gym3.png" alt="FitNest Logo">
+      <h1>FitNest</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="feature.html">Features</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="started.html">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="pricing-container">
+      <div class="pricing-box">
+ <img src="ss.png" alt="Pro Plan">
+        <h3>Starter</h3>
+        <p><strong>$49.99</strong></p>
+        <p>Basic tracker + mobile app</p>
+      </div>
+      <div class="pricing-box">
+ <img src="t.png" alt="Pro Plan">
+        <h3>Pro</h3>
+        <p><strong>$79.99</strong></p>
+        <p>Advanced tracker + AI coaching</p>
+      </div>
+      <div class="pricing-box">
+ <img src="aa.png" alt="Pro Plan">
+        <h3>Elite</h3>
+        <p><strong>$119.99</strong></p>
+        <p>All features + 1-year subscription</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> FitNest Inc.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
